@@ -1,0 +1,26 @@
+.footer-container {
+  background-color: #f8c3bc;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.address,
+.copyright,
+.developer {
+  flex: 1;
+  margin: 10px;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+  }
+}

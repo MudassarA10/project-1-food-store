@@ -1,0 +1,54 @@
+/* Sidebar.css */
+
+.sidebar {
+  width: 20vw;
+  min-width: 200px;
+  height: fit-content;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo-1 img {
+  width: 13vw;
+  height: auto;
+  margin-right: 10px;
+}
+
+.heading {
+  font-size: 1.5em;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+}
+
+.links a {
+  text-decoration: none;
+  color: rgb(243, 157, 130);
+  font-size: 1.8vw;
+  margin-bottom: 10px;
+  transition: color 0.3s;
+  display: flex;
+  justify-content: center;
+}
+
+.links a:hover {
+  color: #f8b400;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    min-width: 0;
+  }
+}

@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #fc9a8a;
+  font-size: 3vw;
+}
+
+h2 {
+  color: #555;
+}
+
+.hero-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px 0;
+}
+
+p {
+  line-height: 1.5;
+  color: #666;
+  font-size: 1.5vw;
+}
+.hori_line {
+  border: none;
+  height: 4px;
+
+  color: #333;
+  background-color: #333;
+}
+.pdf-box {
+  display: flex;
+  gap: 10px;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.5em;
+  }
+  h2 {
+    font-size: 1.2em;
+  }
+  p {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.2em;
+  }
+  h2 {
+    font-size: 1em;
+  }
+  p {
+    font-size: 0.9em;
+  }
+}

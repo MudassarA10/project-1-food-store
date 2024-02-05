@@ -1,0 +1,77 @@
+/* Form.css */
+body {
+  font-family: "Poppins", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+.additional-form-container {
+  margin: 20px;
+  border: 0.2vw solid rgb(241, 141, 141);
+  width: 80vw;
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+legend {
+  font-size: 1.5em;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.radio-box-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.radio-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.radio-box input {
+  margin-right: 8px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  min-height: 80px;
+}
+
+.btn-box {
+  text-align: center;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 1em;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
